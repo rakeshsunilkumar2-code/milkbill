@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useSearchParams } from "next/navigation";
 
 export default function Download() {
@@ -19,5 +21,3 @@ export default function Download() {
     </div>
   );
 }
-
-// box-shadow: 5px 5px 15px 5px rgba(16, 237, 123, 0.753);
