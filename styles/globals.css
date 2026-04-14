@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.bg-wrapper {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1500595046743-cd271d694d30");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+button {
+  background: #2d89ef;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
